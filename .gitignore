@@ -1,0 +1,25 @@
+# Credentials
+.env
+*.key
+profiles.yml
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# dbt
+dbt_warehouse/target/
+dbt_warehouse/dbt_packages/
+dbt_warehouse/logs/
+
+# Airflow
+airflow-docker/logs/
+*.db
+
+# Great Expectations
+gx/uncommitted/
+
+# OS
+.DS_Store
+Thumbs.db

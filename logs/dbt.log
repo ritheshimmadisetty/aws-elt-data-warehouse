@@ -1,0 +1,70 @@
+[0m12:23:17.230797 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA220857F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA2588E570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA2588F230>]}
+
+
+============================== 12:23:17.239991 | 474d1ba5-3b8c-4596-a295-69052131752a ==============================
+[0m12:23:17.239991 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:23:17.240996 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Rithesh\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init stock_dw', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m12:23:17.297228 [debug] [MainThread]: Starter project path: C:\Users\Rithesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m12:23:17.321379 [info ] [MainThread]: 
+Your new dbt project "stock_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:23:17.321379 [info ] [MainThread]: Setting up your profile.
+[0m12:24:01.715474 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m12:24:01.715474 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m16:24:24.261283 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AD43840B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AD7298440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AD3A6D7F0>]}
+
+
+============================== 16:24:24.271484 | 62bb77f7-99ca-4921-9582-a5b1debff412 ==============================
+[0m16:24:24.271484 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:24:24.272497 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Rithesh\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init stock/-dw', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:24:39.927556 [info ] [MainThread]: A project called stock_dw already exists here.
+[0m16:24:39.927556 [debug] [MainThread]: Command `dbt init` succeeded at 16:24:39.927556 after 15.90 seconds
+[0m16:24:39.931905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AD7298440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AD75A79B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AD794FFB0>]}
+[0m16:24:39.931905 [debug] [MainThread]: Flushing usage events
+[0m16:24:41.738834 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:27:07.149922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B922D42F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B951E8260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B94E11760>]}
+
+
+============================== 16:27:07.151796 | d9f8f60b-b44b-4316-88eb-cc6b1019062d ==============================
+[0m16:27:07.151796 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:27:07.155926 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Rithesh\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init stock_dw', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:27:07.179857 [info ] [MainThread]: A project called stock_dw already exists here.
+[0m16:27:07.181816 [debug] [MainThread]: Command `dbt init` succeeded at 16:27:07.180862 after 0.31 seconds
+[0m16:27:07.182812 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B951B7170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B94D9CCB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B9588F500>]}
+[0m16:27:07.184167 [debug] [MainThread]: Flushing usage events
+[0m16:27:08.990176 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:10:56.651403 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BCD8FA8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BCD8F9C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BCD8F9C10>]}
+
+
+============================== 20:10:56.667731 | db7c2ea8-fcb3-4bcd-8182-c50c4a933888 ==============================
+[0m20:10:56.667731 [info ] [MainThread]: Running with dbt=1.11.7
+[0m20:10:56.667731 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Rithesh\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init stock_dw', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:10:56.748077 [info ] [MainThread]: A project called stock_dw already exists here.
+[0m20:10:56.751307 [debug] [MainThread]: Command `dbt init` succeeded at 20:10:56.748077 after 0.50 seconds
+[0m20:10:56.751307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BCA958260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BCCD953A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BCD8F9C10>]}
+[0m20:10:56.751307 [debug] [MainThread]: Flushing usage events
+[0m20:10:59.528639 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:49:21.147411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B715189E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B70DC44A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B704A4D70>]}
+
+
+============================== 22:49:21.155141 | 46e0e573-d610-4249-b82c-fad4bd9f2224 ==============================
+[0m22:49:21.155141 [info ] [MainThread]: Running with dbt=1.11.7
+[0m22:49:21.155141 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Rithesh\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init stock_Dw', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:49:21.189029 [info ] [MainThread]: A project called stock_Dw already exists here.
+[0m22:49:21.189029 [debug] [MainThread]: Command `dbt init` succeeded at 22:49:21.189029 after 0.44 seconds
+[0m22:49:21.189029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B7099AF60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B70BDAC00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B71903710>]}
+[0m22:49:21.189029 [debug] [MainThread]: Flushing usage events
+[0m22:49:23.131150 [debug] [MainThread]: An error was encountered while trying to flush usage events

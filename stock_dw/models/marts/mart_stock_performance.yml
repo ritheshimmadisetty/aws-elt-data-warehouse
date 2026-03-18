@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: mart_stock_performance
+    description: "Overall performance summary per stock"
+    columns:
+      - name: symbol
+        tests:
+          - unique
+          - not_null
